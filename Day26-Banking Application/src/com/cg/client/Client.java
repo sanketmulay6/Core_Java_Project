@@ -11,8 +11,8 @@ public class Client {
 
 	public static void main(String[] args) {
 		BankFactory b = new MMBankFactory();
-		SavingAcc s = new MMSavingAcc(123," Raj ",500000,true);
-		CurrentAcc c = new MMCurrentAcc(345," RAJ ",100000,50000);
+		SavingAcc s = new MMSavingAcc(123," SANKET ",500000,true);
+		CurrentAcc c = new MMCurrentAcc(345," SANKET ",100000,50000);
 		
 		System.out.println("Saving Account");
 		System.out.println("Balance of Saving Account is:"+s.getAccBal());
